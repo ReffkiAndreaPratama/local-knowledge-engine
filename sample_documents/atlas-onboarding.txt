@@ -1,0 +1,36 @@
+Atlas Onboarding Guide
+======================
+
+Welcome to the Atlas team. This guide covers your first week.
+
+Project Halyard
+---------------
+
+Project Halyard is the internal codename for the Atlas documentation migration.
+Every new engineer is asked to read the Halyard migration plan during their first
+week and to add one missing runbook article. The migration tracker lives in the
+team workspace, not in this sample corpus.
+
+Day one checklist
+-----------------
+
+1. Sign in to the identity provider and enrol a second factor.
+2. Join the #atlas-team and #atlas-incidents channels.
+3. Request access to the staging database through the access portal.
+4. Clone the service repository and run the local test suite.
+5. Read the security handbook before requesting production credentials.
+
+Local development
+-----------------
+
+Run `make dev` to start the API on port 8080 and the worker in a separate
+process. The local database is created automatically on first start. Do not use
+production credentials on a laptop, and do not copy customer data into the
+development environment.
+
+Getting help
+------------
+
+Ask in #atlas-team for day-to-day questions. Use the incident channel only for
+active incidents. The onboarding buddy is listed in the team directory and holds
+a 30-minute check-in every morning during your first week.

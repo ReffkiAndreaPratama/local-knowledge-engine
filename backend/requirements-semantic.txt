@@ -1,0 +1,4 @@
+# Optional semantic-search dependencies (Sentence Transformers + PyTorch).
+# Install after the core requirements:
+#   pip install -r requirements.txt -r requirements-semantic.txt
+sentence-transformers>=3.2.1

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Atlas Database Failover Runbook</title>
+  </head>
+  <body>
+    <h1>Atlas Database Failover Runbook</h1>
+    <p>
+      Synthetic sample content for Local Knowledge Engine testing. Atlas is a
+      fictional product.
+    </p>
+    <h2>When to fail over</h2>
+    <p>
+      Fail over when the primary database has been unreachable for more than
+      five minutes and the replica is healthy. Announce the decision in the
+      incident channel before changing traffic.
+    </p>
+    <h2>Procedure</h2>
+    <ol>
+      <li>Confirm replication lag is below 10 seconds.</li>
+      <li>Pause background workers with the maintenance switch.</li>
+      <li>Promote the standby using the managed failover command.</li>
+      <li>Point the application at the new primary and restart the API pods.</li>
+      <li>Run the read-only smoke checks and watch error rates for 15 minutes.</li>
+    </ol>
+    <h2>Rollback</h2>
+    <p>
+      If the new primary fails health checks, stop traffic, restore the previous
+      connection string, and escalate to the database on-call. Never run two
+      primaries at the same time.
+    </p>
+  </body>
+</html>

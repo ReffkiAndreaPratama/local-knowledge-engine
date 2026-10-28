@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f6f7f9;
+  --surface: #ffffff;
+  --elevated: #f1f3f6;
+  --border: #e2e6ec;
+  --fg: #0f172a;
+  --muted: #64748b;
+  --primary: #4f46e5;
+  --primary-fg: #ffffff;
+  --primary-soft: #eef0ff;
+  --success: #15803d;
+  --warning: #b45309;
+  --danger: #b91c1c;
+  color-scheme: light;
+}
+
+.dark {
+  --bg: #0b0f16;
+  --surface: #111722;
+  --elevated: #18202c;
+  --border: #232d3d;
+  --fg: #e8edf5;
+  --muted: #93a1b5;
+  --primary: #7c7bff;
+  --primary-fg: #0b0f16;
+  --primary-soft: #1c2140;
+  --success: #4ade80;
+  --warning: #fbbf24;
+  --danger: #f87171;
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--fg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 999px;
+}
+
+mark {
+  background-color: color-mix(in srgb, var(--primary) 24%, transparent);
+  color: inherit;
+  border-radius: 3px;
+  padding: 0 1px;
+}

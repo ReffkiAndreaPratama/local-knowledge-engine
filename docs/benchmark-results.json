@@ -1,0 +1,823 @@
+{
+  "generated_at": "2026-10-27T16:22:02.907426+00:00",
+  "k": 5,
+  "limit": 10,
+  "queries": 12,
+  "corpus": {
+    "documents": 7,
+    "chunks": 32,
+    "path": "C:\\Users\\tama\\Downloads\\deteksi-kucing-linear-regression\\local-knowledge-engine\\sample_documents"
+  },
+  "database": "C:\\Users\\tama\\AppData\\Local\\Temp\\lke-benchmark-xcyn75ff\\benchmark.db",
+  "hardware": {
+    "platform": "Windows-10-10.0.19045-SP0",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 126 Stepping 5, GenuineIntel",
+    "cpu_count": 8,
+    "python": "3.12.10",
+    "sqlite": "3.49.1",
+    "sentence_transformers": "6.2.0",
+    "torch": "2.14.1+cpu"
+  },
+  "modes": [
+    {
+      "mode": "fulltext",
+      "k": 5,
+      "queries": 12,
+      "precision_at_k": 0.21666666666666667,
+      "precision_at_1": 1.0,
+      "hit_rate_at_k": 1.0,
+      "recall_at_k": 1.0,
+      "mrr": 1.0,
+      "ndcg_at_k": 0.9933100657623489,
+      "mean_latency_ms": 1.3963583332952112,
+      "p95_latency_ms": 2.2957000001042616,
+      "per_query": [
+        {
+          "query": "Which port does the Atlas API listen on?",
+          "relevant": [
+            "atlas-handbook.md"
+          ],
+          "ranked_documents": [
+            "atlas-handbook.md",
+            "atlas-faq.md",
+            "atlas-onboarding.txt",
+            "atlas-database-runbook.html",
+            "atlas-security.md"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 2.296,
+          "notes": []
+        },
+        {
+          "query": "When are database backups taken?",
+          "relevant": [
+            "atlas-handbook.md"
+          ],
+          "ranked_documents": [
+            "atlas-handbook.md",
+            "atlas-database-runbook.html",
+            "atlas-release-notes.md",
+            "atlas-security.md",
+            "atlas-onboarding.txt"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 1.215,
+          "notes": []
+        },
+        {
+          "query": "How quickly must the primary on-call acknowledge a page?",
+          "relevant": [
+            "atlas-handbook.md"
+          ],
+          "ranked_documents": [
+            "atlas-handbook.md",
+            "atlas-security.md",
+            "atlas-database-runbook.html"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 1.675,
+          "notes": []
+        },
+        {
+          "query": "What is Project Halyard?",
+          "relevant": [
+            "atlas-onboarding.txt"
+          ],
+          "ranked_documents": [
+            "atlas-onboarding.txt",
+            "atlas-security.md"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 1.041,
+          "notes": []
+        },
+        {
+          "query": "How long do production access tokens last?",
+          "relevant": [
+            "atlas-security.md"
+          ],
+          "ranked_documents": [
+            "atlas-security.md",
+            "atlas-onboarding.txt",
+            "atlas-faq.md",
+            "atlas-handbook.md"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 1.362,
+          "notes": []
+        },
+        {
+          "query": "How often are encryption keys rotated?",
+          "relevant": [
+            "atlas-security.md"
+          ],
+          "ranked_documents": [
+            "atlas-security.md"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.992,
+          "notes": []
+        },
+        {
+          "query": "What changed in version 2.3.0?",
+          "relevant": [
+            "atlas-release-notes.md"
+          ],
+          "ranked_documents": [
+            "atlas-release-notes.md",
+            "atlas-security.md"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 1.192,
+          "notes": []
+        },
+        {
+          "query": "How long are audit logs retained?",
+          "relevant": [
+            "atlas-faq.md"
+          ],
+          "ranked_documents": [
+            "atlas-faq.md"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 0.902,
+          "notes": []
+        },
+        {
+          "query": "What was the p95 latency in March 2026?",
+          "relevant": [
+            "atlas-service-metrics.csv"
+          ],
+          "ranked_documents": [
+            "atlas-service-metrics.csv",
+            "atlas-release-notes.md",
+            "atlas-handbook.md"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 1.42,
+          "notes": []
+        },
+        {
+          "query": "What should I do when the primary database is unreachable during failover?",
+          "relevant": [
+            "atlas-database-runbook.html",
+            "atlas-handbook.md"
+          ],
+          "ranked_documents": [
+            "atlas-database-runbook.html",
+            "atlas-onboarding.txt",
+            "atlas-handbook.md",
+            "atlas-release-notes.md",
+            "atlas-security.md"
+          ],
+          "precision_at_k": 0.4,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 0.9197207891481876,
+          "latency_ms": 1.879,
+          "notes": []
+        },
+        {
+          "query": "Can I index a folder outside my home directory?",
+          "relevant": [
+            "atlas-faq.md"
+          ],
+          "ranked_documents": [
+            "atlas-faq.md"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 1.212,
+          "notes": []
+        },
+        {
+          "query": "Which formats were added in release 2.2.0?",
+          "relevant": [
+            "atlas-release-notes.md"
+          ],
+          "ranked_documents": [
+            "atlas-release-notes.md",
+            "atlas-security.md"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 1.57,
+          "notes": []
+        }
+      ]
+    },
+    {
+      "mode": "semantic",
+      "k": 5,
+      "queries": 12,
+      "precision_at_k": 0.21666666666666667,
+      "precision_at_1": 0.8333333333333334,
+      "hit_rate_at_k": 1.0,
+      "recall_at_k": 1.0,
+      "mrr": 0.9166666666666666,
+      "ndcg_at_k": 0.9384882922619097,
+      "mean_latency_ms": 16.346141666569263,
+      "p95_latency_ms": 18.958000000566244,
+      "per_query": [
+        {
+          "query": "Which port does the Atlas API listen on?",
+          "relevant": [
+            "atlas-handbook.md"
+          ],
+          "ranked_documents": [
+            "atlas-faq.md",
+            "atlas-handbook.md",
+            "atlas-onboarding.txt",
+            "atlas-release-notes.md",
+            "atlas-database-runbook.html",
+            "atlas-security.md"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 0.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 0.5,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 16.93,
+          "notes": []
+        },
+        {
+          "query": "When are database backups taken?",
+          "relevant": [
+            "atlas-handbook.md"
+          ],
+          "ranked_documents": [
+            "atlas-handbook.md",
+            "atlas-database-runbook.html",
+            "atlas-faq.md",
+            "atlas-security.md",
+            "atlas-release-notes.md",
+            "atlas-service-metrics.csv"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 16.269,
+          "notes": []
+        },
+        {
+          "query": "How quickly must the primary on-call acknowledge a page?",
+          "relevant": [
+            "atlas-handbook.md"
+          ],
+          "ranked_documents": [
+            "atlas-handbook.md",
+            "atlas-database-runbook.html",
+            "atlas-security.md",
+            "atlas-service-metrics.csv",
+            "atlas-onboarding.txt",
+            "atlas-faq.md"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 17.98,
+          "notes": []
+        },
+        {
+          "query": "What is Project Halyard?",
+          "relevant": [
+            "atlas-onboarding.txt"
+          ],
+          "ranked_documents": [
+            "atlas-onboarding.txt",
+            "atlas-handbook.md",
+            "atlas-release-notes.md",
+            "atlas-security.md",
+            "atlas-database-runbook.html"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 15.599,
+          "notes": []
+        },
+        {
+          "query": "How long do production access tokens last?",
+          "relevant": [
+            "atlas-security.md"
+          ],
+          "ranked_documents": [
+            "atlas-security.md",
+            "atlas-faq.md",
+            "atlas-handbook.md",
+            "atlas-service-metrics.csv",
+            "atlas-database-runbook.html"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 18.958,
+          "notes": []
+        },
+        {
+          "query": "How often are encryption keys rotated?",
+          "relevant": [
+            "atlas-security.md"
+          ],
+          "ranked_documents": [
+            "atlas-security.md",
+            "atlas-handbook.md",
+            "atlas-faq.md",
+            "atlas-release-notes.md",
+            "atlas-database-runbook.html",
+            "atlas-service-metrics.csv"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 17.573,
+          "notes": []
+        },
+        {
+          "query": "What changed in version 2.3.0?",
+          "relevant": [
+            "atlas-release-notes.md"
+          ],
+          "ranked_documents": [
+            "atlas-release-notes.md",
+            "atlas-security.md",
+            "atlas-onboarding.txt",
+            "atlas-handbook.md",
+            "atlas-faq.md"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 16.421,
+          "notes": []
+        },
+        {
+          "query": "How long are audit logs retained?",
+          "relevant": [
+            "atlas-faq.md"
+          ],
+          "ranked_documents": [
+            "atlas-faq.md",
+            "atlas-handbook.md",
+            "atlas-release-notes.md",
+            "atlas-security.md",
+            "atlas-database-runbook.html",
+            "atlas-service-metrics.csv"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 16.596,
+          "notes": []
+        },
+        {
+          "query": "What was the p95 latency in March 2026?",
+          "relevant": [
+            "atlas-service-metrics.csv"
+          ],
+          "ranked_documents": [
+            "atlas-handbook.md",
+            "atlas-service-metrics.csv",
+            "atlas-database-runbook.html",
+            "atlas-release-notes.md",
+            "atlas-security.md",
+            "atlas-faq.md"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 0.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 0.5,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 17.483,
+          "notes": []
+        },
+        {
+          "query": "What should I do when the primary database is unreachable during failover?",
+          "relevant": [
+            "atlas-database-runbook.html",
+            "atlas-handbook.md"
+          ],
+          "ranked_documents": [
+            "atlas-database-runbook.html",
+            "atlas-handbook.md",
+            "atlas-service-metrics.csv",
+            "atlas-onboarding.txt",
+            "atlas-release-notes.md"
+          ],
+          "precision_at_k": 0.4,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 15.499,
+          "notes": []
+        },
+        {
+          "query": "Can I index a folder outside my home directory?",
+          "relevant": [
+            "atlas-faq.md"
+          ],
+          "ranked_documents": [
+            "atlas-faq.md",
+            "atlas-release-notes.md",
+            "atlas-onboarding.txt",
+            "atlas-handbook.md"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 11.3,
+          "notes": []
+        },
+        {
+          "query": "Which formats were added in release 2.2.0?",
+          "relevant": [
+            "atlas-release-notes.md"
+          ],
+          "ranked_documents": [
+            "atlas-release-notes.md",
+            "atlas-security.md",
+            "atlas-onboarding.txt",
+            "atlas-database-runbook.html",
+            "atlas-handbook.md"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 15.546,
+          "notes": []
+        }
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "k": 5,
+      "queries": 12,
+      "precision_at_k": 0.21666666666666667,
+      "precision_at_1": 0.9166666666666666,
+      "hit_rate_at_k": 1.0,
+      "recall_at_k": 1.0,
+      "mrr": 0.9583333333333334,
+      "ndcg_at_k": 0.9692441461309548,
+      "mean_latency_ms": 32.171883332921425,
+      "p95_latency_ms": 183.8114999991376,
+      "per_query": [
+        {
+          "query": "Which port does the Atlas API listen on?",
+          "relevant": [
+            "atlas-handbook.md"
+          ],
+          "ranked_documents": [
+            "atlas-handbook.md",
+            "atlas-faq.md",
+            "atlas-onboarding.txt",
+            "atlas-security.md",
+            "atlas-release-notes.md",
+            "atlas-database-runbook.html"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 18.909,
+          "notes": []
+        },
+        {
+          "query": "When are database backups taken?",
+          "relevant": [
+            "atlas-handbook.md"
+          ],
+          "ranked_documents": [
+            "atlas-handbook.md",
+            "atlas-database-runbook.html",
+            "atlas-security.md",
+            "atlas-release-notes.md",
+            "atlas-onboarding.txt",
+            "atlas-faq.md"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 19.35,
+          "notes": []
+        },
+        {
+          "query": "How quickly must the primary on-call acknowledge a page?",
+          "relevant": [
+            "atlas-handbook.md"
+          ],
+          "ranked_documents": [
+            "atlas-handbook.md",
+            "atlas-security.md",
+            "atlas-database-runbook.html",
+            "atlas-service-metrics.csv",
+            "atlas-onboarding.txt",
+            "atlas-faq.md"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 23.719,
+          "notes": []
+        },
+        {
+          "query": "What is Project Halyard?",
+          "relevant": [
+            "atlas-onboarding.txt"
+          ],
+          "ranked_documents": [
+            "atlas-onboarding.txt",
+            "atlas-security.md",
+            "atlas-handbook.md",
+            "atlas-release-notes.md",
+            "atlas-database-runbook.html",
+            "atlas-faq.md",
+            "atlas-service-metrics.csv"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 18.907,
+          "notes": []
+        },
+        {
+          "query": "How long do production access tokens last?",
+          "relevant": [
+            "atlas-security.md"
+          ],
+          "ranked_documents": [
+            "atlas-security.md",
+            "atlas-faq.md",
+            "atlas-onboarding.txt",
+            "atlas-handbook.md",
+            "atlas-service-metrics.csv",
+            "atlas-database-runbook.html"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 18.203,
+          "notes": []
+        },
+        {
+          "query": "How often are encryption keys rotated?",
+          "relevant": [
+            "atlas-security.md"
+          ],
+          "ranked_documents": [
+            "atlas-security.md",
+            "atlas-handbook.md",
+            "atlas-faq.md",
+            "atlas-release-notes.md",
+            "atlas-database-runbook.html",
+            "atlas-service-metrics.csv"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 19.065,
+          "notes": []
+        },
+        {
+          "query": "What changed in version 2.3.0?",
+          "relevant": [
+            "atlas-release-notes.md"
+          ],
+          "ranked_documents": [
+            "atlas-release-notes.md",
+            "atlas-security.md",
+            "atlas-onboarding.txt",
+            "atlas-handbook.md",
+            "atlas-faq.md",
+            "atlas-service-metrics.csv"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 19.46,
+          "notes": []
+        },
+        {
+          "query": "How long are audit logs retained?",
+          "relevant": [
+            "atlas-faq.md"
+          ],
+          "ranked_documents": [
+            "atlas-faq.md",
+            "atlas-handbook.md",
+            "atlas-release-notes.md",
+            "atlas-security.md",
+            "atlas-database-runbook.html",
+            "atlas-service-metrics.csv"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 11.971,
+          "notes": []
+        },
+        {
+          "query": "What was the p95 latency in March 2026?",
+          "relevant": [
+            "atlas-service-metrics.csv"
+          ],
+          "ranked_documents": [
+            "atlas-service-metrics.csv",
+            "atlas-handbook.md",
+            "atlas-release-notes.md",
+            "atlas-database-runbook.html",
+            "atlas-security.md",
+            "atlas-faq.md"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 18.046,
+          "notes": []
+        },
+        {
+          "query": "What should I do when the primary database is unreachable during failover?",
+          "relevant": [
+            "atlas-database-runbook.html",
+            "atlas-handbook.md"
+          ],
+          "ranked_documents": [
+            "atlas-database-runbook.html",
+            "atlas-handbook.md",
+            "atlas-onboarding.txt",
+            "atlas-release-notes.md",
+            "atlas-security.md",
+            "atlas-service-metrics.csv"
+          ],
+          "precision_at_k": 0.4,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 18.768,
+          "notes": []
+        },
+        {
+          "query": "Can I index a folder outside my home directory?",
+          "relevant": [
+            "atlas-faq.md"
+          ],
+          "ranked_documents": [
+            "atlas-faq.md",
+            "atlas-release-notes.md",
+            "atlas-onboarding.txt",
+            "atlas-handbook.md",
+            "atlas-database-runbook.html",
+            "atlas-security.md"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 1.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_k": 1.0,
+          "latency_ms": 15.853,
+          "notes": []
+        },
+        {
+          "query": "Which formats were added in release 2.2.0?",
+          "relevant": [
+            "atlas-release-notes.md"
+          ],
+          "ranked_documents": [
+            "atlas-security.md",
+            "atlas-release-notes.md",
+            "atlas-onboarding.txt",
+            "atlas-database-runbook.html",
+            "atlas-handbook.md",
+            "atlas-faq.md"
+          ],
+          "precision_at_k": 0.2,
+          "precision_at_1": 0.0,
+          "hit_rate_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "reciprocal_rank": 0.5,
+          "ndcg_at_k": 0.6309297535714575,
+          "latency_ms": 183.811,
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Computed 32 embeddings with sentence-transformers/all-MiniLM-L6-v2 on cpu."
+  ]
+}
